@@ -2364,38 +2364,16 @@
       ]
     },
     {
-      "name": "星星",
+      "name": "农民",
       "hosts": [
-        "aws.ulivetv.net"
+        "toutiaovod.com"
       ],
       "regex": [
-        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:8,[\\s\\S]*?#EXT-X-DISCONTINUITY"
+        "video/tos/cn"
       ]
     },
     {
-      "name": "量子廣告",
-      "hosts": [
-        "vip.lz",
-        "hd.lz"
-      ],
-      "regex": [
-        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.433333,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-        "#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"
-      ]
-    },
-    {
-      "name": "非凡廣告",
-      "hosts": [
-        "vip.ffzy",
-        "hd.ffzy"
-      ],
-      "regex": [
-        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-        "#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"
-      ]
-    },
-    {
-      "name": "火山嗅探",
+      "name": "火山",
       "hosts": [
         "huoshan.com"
       ],
@@ -2404,21 +2382,12 @@
       ]
     },
     {
-      "name": "抖音嗅探",
+      "name": "抖音",
       "hosts": [
         "douyin.com"
       ],
       "regex": [
         "is_play_url="
-      ]
-    },
-    {
-      "name": "农民",
-      "hosts": [
-        "toutiaovod.com"
-      ],
-      "regex": [
-        "video/tos/cn"
       ]
     },
     {
@@ -2464,6 +2433,37 @@
       ],
       "script": [
         "document.getElementsByClassName('swal-buttonswal-button--confirm')[0].click()"
+      ]
+    },
+    {
+      "name": "星星",
+      "hosts": [
+        "aws.ulivetv.net"
+      ],
+      "regex": [
+        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:8,[\\s\\S]*?#EXT-X-DISCONTINUITY"
+      ]
+    },
+    {
+      "name": "量子廣告",
+      "hosts": [
+        "vip.lz",
+        "hd.lz"
+      ],
+      "regex": [
+        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.433333,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+        "#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"
+      ]
+    },
+    {
+      "name": "非凡廣告",
+      "hosts": [
+        "vip.ffzy",
+        "hd.ffzy"
+      ],
+      "regex": [
+        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+        "#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"
       ]
     },
     {
@@ -2719,6 +2719,36 @@
       "url": "Demo"
     },
     {
+      "name": "影视",
+      "type": 3,
+      "url": "影视"
+    },
+    {
+      "name": "牛牛",
+      "type": 1,
+      "url": "",
+      "ext": {
+        "flag": [
+          "QD4K",
+          "iyf",
+          "duanju",
+          "gzcj",
+          "GTV",
+          "GZYS",
+          "weggz",
+          "Ace"
+        ],
+        "header": {
+          "User-Agent": "okhttp/4.9.1"
+        }
+      }
+    },
+    {
+      "name": "夜幕",
+      "type": 0,
+      "url": ""
+    },
+    {
       "name": "线路1",
       "type": 0,
       "url": "https://jx.xmflv.com/?url=",
@@ -2793,36 +2823,6 @@
       "name": "线路10",
       "type": 0,
       "url": "https://www.ckplayer.vip/jiexi/?url="
-    },
-    {
-      "name": "影视",
-      "type": 3,
-      "url": "影视"
-    },
-    {
-      "name": "牛牛",
-      "type": 1,
-      "url": "",
-      "ext": {
-        "flag": [
-          "QD4K",
-          "iyf",
-          "duanju",
-          "gzcj",
-          "GTV",
-          "GZYS",
-          "weggz",
-          "Ace"
-        ],
-        "header": {
-          "User-Agent": "okhttp/4.9.1"
-        }
-      }
-    },
-    {
-      "name": "夜幕",
-      "type": 0,
-      "url": ""
     },
     {
       "name": "-咸鱼-",
@@ -2928,7 +2928,7 @@
       "url": "http://pan.qiaoji8.com/tvbox/neibu.php?url="
     }
   ],
-  "last_updated": "2026-11-25T05:43:50.161967+00:00",
+  "last_updated": "2026-11-25T07:10:55.164858+00:00",
   "upstream_count": 9,
   "source_count": 276
 }
